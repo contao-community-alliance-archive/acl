@@ -155,7 +155,7 @@ class ACL extends System
 		}
 		else
 		{
-			throw new Exception("Object ID $intObjectId in table $strObjectTable!");
+			throw new Exception("Object ID $intObjectId in table $strObjectTable not found!");
 		}
 	}
 
