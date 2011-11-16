@@ -52,7 +52,7 @@ class ACL extends System
 	 * Get singleton instance
 	 * @return ACL
 	 */
-	public static function getSingleton()
+	public static function getInstance()
 	{
 		if (!self::$singleton)
 		{
