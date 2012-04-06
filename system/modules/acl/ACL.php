@@ -201,7 +201,7 @@ class ACL extends System
 		{
 			return $this->has(sbstr($acl, 0, $pos), $right);
 		}
-		return $this->User->isAdmin;
+		return $this->User->isAdmin ? true : null;
 	}
 
 	/**
